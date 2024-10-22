@@ -1,0 +1,39 @@
+.headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+}
+
+/* -------------------------------------------- */
+
+.headline > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* -------------------------------------------- */
+
+.headline-title {
+    height: 100%;
+    flex: 5;
+
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+/* -------------------------------------------- */
+
+.headline-options {    
+    aspect-ratio: 1 / 1;
+    height: 100%;
+    width: auto;
+    flex: 1;
+
+    justify-content: center;
+}
+
+.headline-options:hover {
+    cursor: pointer;
+}
