@@ -4,7 +4,7 @@ import { toKebab } from "../../../../utilities/helperFunctions/toKebab.js";
 
 function createHeadline(name) {
     const headline = createNewElement({
-        classList: [name, "headline"],
+        classList: [`${toKebab(name)}-headline`, "headline"],
     });
 
     const headlineTitle = createNewElement({

@@ -4,7 +4,7 @@ import { toKebab } from "../../../../utilities/helperFunctions/toKebab.js";
 
 function createSidebarButton(name) {
     const button = createNewElement({
-        classList: [toKebab(name), "sidebar-button"],
+        classList: [`${toKebab(name)}-sidebar-button`, "sidebar-button"],
     });
 
     const icon = createNewElement({
