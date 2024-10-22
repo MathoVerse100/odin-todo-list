@@ -1,0 +1,23 @@
+.sidebar--navigation {
+    aspect-ratio: 2 / 1;
+    width: 50px;
+    height: auto;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.sidebar--navigation:hover {
+    cursor: pointer;
+    background-color: rgb(224, 224, 224);
+    transition: 0.2s;
+}
+
+.sidebar--navigation:active {
+    cursor: pointer;
+    background-color: rgb(203, 203, 203);
+    transition: 0s;
+}
