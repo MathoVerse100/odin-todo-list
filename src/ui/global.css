@@ -1,0 +1,15 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
