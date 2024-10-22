@@ -1,5 +1,6 @@
 #header {
     flex: 1;
+    min-height: 65px;
 
     padding-left: 10px;
     padding-right: 10px;

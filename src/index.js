@@ -9,6 +9,7 @@ import "./ui/main/sidebar/sidebarLayout.css";
 import "./ui/main/sidebar/categories/categoryStyle.css";
 import "./ui/main/sidebar/projects/projectStyle.css";
 import "./ui/main/sidebar/headlines/headlineStyle.css";
+import "./ui/main/sidebar/projects/projectStyle.css";
 import { renderHeader } from "./ui/header/headerUpdates";
 import { renderSidebar } from "./ui/main/sidebar/sidebarUpdates";
 
