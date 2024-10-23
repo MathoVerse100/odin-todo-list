@@ -31,3 +31,4 @@ export const allTasksSidebarButton = createSidebarButton("All Tasks");
 export const todaySidebarButton = createSidebarButton("Today");
 export const tomorrowSidebarButton = createSidebarButton("Tomorrow");
 export const calendarSidebarButton = createSidebarButton("Calendar");
+export const completedSidebarButton = createSidebarButton("Completed");
