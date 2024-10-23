@@ -1,7 +1,10 @@
 import { sampleBoardTitle } from "./boardTitle/boardTitleScript.js";
-import { sampleTask1 } from "./task/taskScript.js";
+import { sampleTask1, sampleTask2 } from "./task/taskScript.js";
+import { addTask } from "./addTask/addTaskScript.js";
 
 
 export function renderBoard(parent) {
-    parent.append(sampleBoardTitle, sampleTask1);
+    parent.appendChild(sampleBoardTitle);
+    parent.append(sampleTask1, sampleTask2);
+    parent.appendChild(addTask);
 };

@@ -37,6 +37,10 @@
     width: auto;
 }
 
+.task-checkbox:hover {
+    cursor: pointer;
+}
+
 .title-box {
     flex: 1;
 
@@ -66,4 +70,8 @@
     aspect-ratio: 1 / 1;
     height: 20px;
     width: auto;
+}
+
+.options-box:hover {
+    cursor: pointer;
 }

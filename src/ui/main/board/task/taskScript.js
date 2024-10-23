@@ -53,3 +53,4 @@ function createTaskBox(title, description, dueDate, priority) {
 
 
 export const sampleTask1 = createTaskBox("Task 1", "This is a description of the task".repeat(20), "20 Oct 2002", "Important");
+export const sampleTask2 = createTaskBox("Task 2", "This is a description of the task".repeat(20), "20 Oct 2002", "Important");

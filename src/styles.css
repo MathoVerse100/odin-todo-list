@@ -12,3 +12,4 @@
 @import "./ui/main/sidebar/projects/projectStyle.css";
 @import "./ui/main/board/boardTitle/boardTitleStyle.css";
 @import "./ui/main/board/task/taskStyle.css";
+@import "./ui/main/board/addTask/addTaskStyle.css";
