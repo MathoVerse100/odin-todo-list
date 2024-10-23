@@ -1,0 +1,13 @@
+[data-theme="light"] {
+    --header-background-color: red;
+    --header-bottom-border-color: black;
+    --header-text-color: white;
+    --header-hover-color: rgb(174, 0, 0);
+    --header-active-color: rgb(103, 0, 0);
+
+    --sidebar-background-color: rgb(174, 0, 0);
+    --sidebar-right-border-color: black;
+    --sidebar-text-color: black;
+    --sidebar-hover-color: rgb(203, 203, 203);
+    --sidebar-active-color: rgb(163, 163, 163);
+}
