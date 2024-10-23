@@ -1,8 +1,8 @@
 import { allTasksSidebarButton, todaySidebarButton, 
          tomorrowSidebarButton, calendarSidebarButton,
-         completedSidebarButton } from "./categories/categoryScript.js";
-import { projectsHeadline } from "./headlines/headlineScript.js";
-import { projectOne, projectTwo } from "./projects/projectScript.js"
+         completedSidebarButton } from "./categories/categoryGeneration.js";
+import { projectsHeadline } from "./headlines/headlineGeneration.js";
+import { projectOne, projectTwo } from "./projects/projectGeneration.js"
 
 
 export function renderSidebar(parent) {

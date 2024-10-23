@@ -6,7 +6,7 @@ export const themeButton = createNewElement({
     classList: ["theme-button"],
     textContent: "Light",
     attributes: {
-        title: "Switch Theme",
+        title: "Toggle Theme",
     },
 });
 

@@ -1,6 +1,6 @@
-import { themeButton } from "./mode/modeScript.js";
-import { sidebarNavigation } from "./navigation/navigationScript.js";
-import { title } from "./title/titleScript.js";
+import { themeButton } from "./mode/modeGeneration.js";
+import { sidebarNavigation } from "./navigation/navigationGeneration.js";
+import { title } from "./title/titleGeneration.js";
 
 
 export function renderHeader(parent) {
