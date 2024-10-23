@@ -6,6 +6,6 @@
     flex-direction: column;
     gap: 15px;
 
-    background-color: lightblue;
-    border-right: 2px solid black;
+    background-color: var(--sidebar-background-color);
+    border-right: 2px solid var(--sidebar-right-border-color);
 }

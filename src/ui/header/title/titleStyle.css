@@ -1,8 +1,8 @@
 .title {
     font-size: 30px;
     font-weight: 1000;
-    color: black;
-    background-color: lightblue;
+    color: var(--header-text-color);
+    background-color: var(--header-background-color);
     border: none;
     border-radius: 5px;
 }

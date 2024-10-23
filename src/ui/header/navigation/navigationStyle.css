@@ -5,20 +5,20 @@
 
     font-size: 18px;
     font-weight: bold;
-    color: black;
-    background-color: lightblue;
+    color: var(--header-text-color);
+    background-color: var(--header-background-color);
     border: none;
     border-radius: 5px;
 }
 
 .sidebar-navigation:hover {
     cursor: pointer;
-    background-color: rgb(83, 188, 223);
+    background-color: var(--header-hover-color);
     transition: 0.2s;
 }
 
 .sidebar-navigation:active {
     cursor: pointer;
-    background-color: rgb(90, 157, 179);
+    background-color: var(--header-active-color);
     transition: 0s;
 }

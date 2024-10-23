@@ -10,13 +10,13 @@
 }
 
 .project-button:hover {
-    background-color: rgb(203, 203, 203);
+    background-color: var(--sidebar-hover-color);
     cursor: pointer;
     transition: 0.2s;
 }
 
 .project-button:active {
-    background-color: rgb(163, 163, 163);
+    background-color: var(--sidebar-active-color);
     cursor: pointer;
     transition: 0s;
 }

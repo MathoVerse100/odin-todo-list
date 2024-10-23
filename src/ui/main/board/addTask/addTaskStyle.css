@@ -1,20 +1,22 @@
 .add-task-button {
+    background-color: var(--board-add-task-background-color);
     margin-top: 25px;
     display: flex;
     flex-direction: row;
     justify-content: stretch;
     align-items: center;
     gap: 10px;
+    border-radius: 10px;
 }
 
 .add-task-button:hover {
     cursor: pointer;
-    background-color: rgb(216, 216, 216);;
+    background-color: var(--board-add-task-hover-color);
     transition: 0.2s;
 }
 
 .add-task-button:active {
-    background-color: rgb(162, 162, 162);;
+    background-color: var(--board-add-task-active-color);
     transition: 0s;
 }
 
