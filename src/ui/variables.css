@@ -15,3 +15,21 @@
     --board-add-task-hover-color: rgb(216, 216, 216);
     --board-add-task-active-color: rgb(162, 162, 162);
 }
+
+[data-theme="dark-mode"] {
+    --header-background-color: lightblue;
+    --header-bottom-border-color: black;
+    --header-text-color: black;
+    --header-hover-color: rgb(83, 188, 223);
+    --header-active-color: rgb(90, 157, 179);
+
+    --sidebar-background-color: lightblue;
+    --sidebar-right-border-color: black;
+    --sidebar-text-color: black;
+    --sidebar-hover-color: rgb(137, 202, 224);
+    --sidebar-active-color: rgb(114, 151, 163);
+
+    --board-add-task-background-color: white;
+    --board-add-task-hover-color: rgb(216, 216, 216);
+    --board-add-task-active-color: rgb(162, 162, 162);
+}
