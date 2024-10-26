@@ -19,6 +19,7 @@
     flex-direction: row;
     justify-content: stretch;
     align-items: center;
+    gap: 10px;
 }
 
 .task-title-box > div {
@@ -53,8 +54,22 @@
     aspect-ratio: 3 / 1;
     width: auto;
     height: 100%;
+    border: 1px solid black;
 
-    text-align: center;
+    justify-content: center;
+}
+
+.priority-box:hover {
+    cursor: pointer;
+    background-color: rgb(81, 81, 81);
+    color: white;
+    transition: 0.2s;
+}
+
+.priority-box:active {
+    background-color: black;
+    color: white;
+    transition: 0s;
 }
 
 .date-box {
@@ -70,8 +85,19 @@
     aspect-ratio: 1 / 1;
     height: 20px;
     width: auto;
+    
+    justify-content: center;
 }
 
 .options-box:hover {
     cursor: pointer;
+    background-color: rgb(81, 81, 81);
+    color: white;
+    transition: 0.2s;
+}
+
+.options-box:active {
+    background-color: black;
+    color: white;
+    transition: 0s;
 }
