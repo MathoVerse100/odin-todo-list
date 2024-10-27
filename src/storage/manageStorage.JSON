@@ -4,7 +4,7 @@
             "title": "Light",
             "theme": "light-mode"
         },
-        "navigation": "open"
+        "navigation": "flex"
     },
     "main": {
         "sidebar": {

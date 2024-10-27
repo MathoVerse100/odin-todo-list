@@ -1,4 +1,6 @@
 export function renderDefaults() {
-    document.body.setAttribute("data-theme", JSON.parse(localStorage.app).header.mode.theme);
-    document.querySelector(".theme-button").textContent = JSON.parse(localStorage.app).header.mode.title;
+    const defaultSettings = JSON.parse(localStorage.app);
+    document.body.setAttribute("data-theme", defaultSettings.header.mode.theme);
+    document.querySelector(".theme-button").textContent = defaultSettings.header.mode.title;
+    document.querySelector("#sidebar").style.display = defaultSettings.header.navigation;
 };
