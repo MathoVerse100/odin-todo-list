@@ -1,10 +1,11 @@
-import { localStorageDataTheme } from "../../../storage/storageAttibutes.js";
+import { capitalizeFirstLetter } from "../../../utilities/helperFunctions/capitalizeFirstLetter";
 
 
 export function toggleTheme() {
-    const body = document.body;
-    const currentTheme = localStorage.getItem("data-theme");
-    const newTheme = currentTheme === "light-mode" ? "dark-mode" : "light-mode";
+    const currentLocalStorage = JSON.parse(localStorage.app);
+    const newTheme = currentLocalStorage.header.mode.theme === "light-mode" ? "dark-mode" : "light-mode";
 
-    body.setAttribute("data-theme", newTheme);
+    currentLocalStorage.header.mode.theme = newTheme;
+    currentLocalStorage.header.mode.title = capitalizeFirstLetter(newTheme.split("-")[0]);
+    localStorage.setItem("app", JSON.stringify(currentLocalStorage));
 };

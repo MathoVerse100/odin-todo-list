@@ -1,6 +1,9 @@
 {
     "header": {
-        "mode": "light-mode",
+        "mode": {
+            "title": "Light",
+            "theme": "light-mode"
+        },
         "navigation": "open"
     },
     "main": {

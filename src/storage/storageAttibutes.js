@@ -1,5 +1,8 @@
-export function localStorageDataTheme() {
-    if (!localStorage.getItem("data-theme")) {
-        localStorage.setItem("data-theme", "light-mode");
+let defaultStorage = require("./manageStorage.JSON");
+
+
+export function defaultLocalStorage() {
+    if (!localStorage.getItem("app")) {
+        localStorage.setItem("app", JSON.stringify(defaultStorage)); 
     };
 };

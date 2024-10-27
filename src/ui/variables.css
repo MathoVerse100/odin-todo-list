@@ -1,4 +1,4 @@
-:root {
+[data-theme="light-mode"] {
     --header-background-color: lightblue;
     --header-bottom-border-color: black;
     --header-text-color: black;
