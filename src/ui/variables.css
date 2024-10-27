@@ -11,25 +11,29 @@
     --sidebar-hover-color: rgb(137, 202, 224);
     --sidebar-active-color: rgb(114, 151, 163);
 
+    --board-background-color: white;
     --board-add-task-background-color: white;
+    --board-add-task-text-color: black;
     --board-add-task-hover-color: rgb(216, 216, 216);
     --board-add-task-active-color: rgb(162, 162, 162);
 }
 
 [data-theme="dark-mode"] {
-    --header-background-color: lightblue;
-    --header-bottom-border-color: black;
-    --header-text-color: black;
-    --header-hover-color: rgb(83, 188, 223);
-    --header-active-color: rgb(90, 157, 179);
+    --header-background-color: rgb(184, 0, 184);
+    --header-bottom-border-color: white;
+    --header-text-color: white;
+    --header-hover-color: rgb(123, 0, 123);
+    --header-active-color: rgb(60, 0, 60);
 
-    --sidebar-background-color: lightblue;
-    --sidebar-right-border-color: black;
-    --sidebar-text-color: black;
-    --sidebar-hover-color: rgb(137, 202, 224);
-    --sidebar-active-color: rgb(114, 151, 163);
+    --sidebar-background-color: rgb(52, 52, 52);
+    --sidebar-right-border-color: white;
+    --sidebar-text-color: white;
+    --sidebar-hover-color: rgb(130, 130, 130);
+    --sidebar-active-color: rgb(52, 52, 52);
 
-    --board-add-task-background-color: white;
-    --board-add-task-hover-color: rgb(216, 216, 216);
-    --board-add-task-active-color: rgb(162, 162, 162);
+    --board-background-color: black;
+    --board-add-task-background-color: black;
+    --board-add-task-text-color: white;
+    --board-add-task-hover-color: rgb(52, 52, 52);
+    --board-add-task-active-color: rgb(130, 130, 130);
 }

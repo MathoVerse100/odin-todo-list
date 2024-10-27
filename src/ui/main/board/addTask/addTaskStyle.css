@@ -22,6 +22,7 @@
 
 .add-task-button > div {
     padding: 2%;
+    color: var(--board-add-task-text-color);
 }
 
 .add-task-icon {

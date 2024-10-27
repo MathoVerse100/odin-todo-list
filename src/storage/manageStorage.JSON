@@ -1,0 +1,58 @@
+{
+    "header": {
+        "mode": "light-mode",
+        "navigation": "open"
+    },
+    "main": {
+        "sidebar": {
+            "categories": {
+                "all-tasks": {
+                    "counter": 0,
+                    "related-tasks": []
+                },
+                "today": {
+                    "counter": 0,
+                    "related-tasks": []
+                },
+                "tomorrow": {
+                    "counter": 0,
+                    "related-tasks": []
+                },
+                "calender": {
+                    "counter": 0,
+                    "related-tasks": []
+                },
+                "completed": {
+                    "counter": 0,
+                    "related-tasks": []
+                }  
+            },
+            "projects": {
+                "sample-project-1": {
+                    "counter": 0,
+                    "related-tasks": []
+                },
+                "sample-project-2": {
+                    "counter": 0,
+                    "related-tasks": []
+                }
+            }
+        },
+        "board": {
+            "task1": {
+                "title": "Task1",
+                "status": "incomplete",
+                "priority": "high",
+                "date": "22 Oct 2024",
+                "description": "This is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the task."
+            },
+            "task2": {
+                "title": "Task2",
+                "status": "complete",
+                "priority": "medium",
+                "date": "3 Nov 2024",
+                "description": "This is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the taskThis is a description of the task."
+            }
+        }
+    }
+}
